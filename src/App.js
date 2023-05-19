@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Message from "./pages/Message";
+import Event from "./pages/Event";
+import Hook from "./pages/Hook";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
             <Route path= "/about" element = {<About/>}></Route>
             <Route path= "/contact" element = {<Contact/>}></Route>
             <Route path= "/message" element = {<Message/>}></Route>
+            <Route path= "/event" element = {<Event/>}></Route>
+            <Route path= "/hook" element = {<Hook/>}></Route>
         </Routes>
 
     </BrowserRouter>
